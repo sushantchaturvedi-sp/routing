@@ -16,17 +16,17 @@ const Navbar = () => {
   );
 };
 
-const Home = () => {
+function Home() {
   return <h1>Welcome to Sushant's assignment for Tarun Sir!</h1>;
-};
+}
 
-const About = () => {
+function About() {
   return <h1>Intern at SoftProdigy!</h1>;
-};
+}
 
-const Contact = () => {
+function Contact() {
   return <h2>email: <em>sushant_chaturvedi@softprodigy.com</em></h2>;
-};
+}
 
 function App() {
   return (
